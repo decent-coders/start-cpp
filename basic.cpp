@@ -293,21 +293,39 @@
 //     cout << x;
 //     return 0;
 // }
-#include <iostream>
-using namespace std;
-int factorial(int n){
-    int fact = 1;
-    for (int i = 1; i <= n; i++)
-    {
-       fact *= i;
-    }
+// #include <iostream>
+// using namespace std;
+// int factorial(int n){
+//     int fact = 1;
+//     for (int i = 1; i <= n; i++)
+//     {
+//        fact *= i;
+//     }
 
-    return fact;
-}
-int main(){
-    cout<<"Enter a number: ";
-    int x;
-    cin>>x;
-    cout<<"Factorial of "<<x<<" is "<<factorial(x);
-    return 0;
-}
+//     return fact;
+// }
+// int main(){
+//     cout<<"Enter a number: ";
+//     int x;
+//     cin>>x;
+//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
+//     return 0;
+// }
+// #include <iostream>
+// using namespace std;
+// int factorial(int n){
+//     int fact = 1;
+//     for (int i = 1; i <= n; i++)
+//     {
+//        fact *= i;
+//     }
+
+//     return fact;
+// }
+// int main(){
+//     cout<<"Enter a number: ";
+//     int x;
+//     cin>>x;
+//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
+//     return 0;
+// }
