@@ -709,3 +709,25 @@
     
 //     return 0;
 // }
+#include <iostream>
+#include <limits.h>
+using namespace std;
+int main ()
+{
+    int test[5] = {1, 2, 3, 4, 5};
+    int size = 5;
+    int smallest = INT_MAX ;
+    int largest = INT_MIN;
+    for (int i = 0; i < size; i++)
+    {
+        largest = max(largest, test[i]);
+    }
+    for (int i = 0; i < size; i++)
+    {
+       smallest = min(smallest, test[i]);
+   
+    }
+    cout << "Smallest number is: " << smallest << endl;
+    cout << "Largest number is: " << largest << endl;
+    return 0;
+}
