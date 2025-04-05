@@ -709,25 +709,68 @@
     
 //     return 0;
 // }
-#include <iostream>
-#include <limits.h>
-using namespace std;
-int main ()
-{
-    int test[5] = {1, 2, 3, 4, 5};
-    int size = 5;
-    int smallest = INT_MAX ;
-    int largest = INT_MIN;
-    for (int i = 0; i < size; i++)
-    {
-        largest = max(largest, test[i]);
-    }
-    for (int i = 0; i < size; i++)
-    {
-       smallest = min(smallest, test[i]);
+// #include <iostream>
+// #include <limits.h>
+// using namespace std;
+// int main ()
+// {
+//     int test[5] = {1, 2, 3, 4, 5};
+//     int size = 5;
+//     int smallest = INT_MAX ;
+//     int largest = INT_MIN;
+//     for (int i = 0; i < size; i++)
+//     {
+//         largest = max(largest, test[i]);
+//     }
+//     for (int i = 0; i < size; i++)
+//     {
+//        smallest = min(smallest, test[i]);
    
+//     }
+//     cout << "Smallest number is: " << smallest << endl;
+//     cout << "Largest number is: " << largest << endl;
+//     return 0;
+// }
+// #include <iostream>
+// using namespace std;
+
+// void changeArr (int arr[],int size)
+// {
+//     cout << "Array after changing: " << endl;
+//     for (int i = 0; i < size; i++)
+//     {
+//         arr[i] = arr[i] * 2;
+//     }
+    
+// }
+// int main()
+// {
+//     int arr[] = {1, 2, 3, 4, 5};
+//     changeArr(arr, 5);
+//     for (int i = 0; i < 5; i++)
+//     {
+//         cout << arr[i] << " ";
+//     }
+//     return 0;
+// }
+#include <iostream>
+using namespace std;
+int linearSearch( int arr[],int size, int target)
+{
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] == target)
+        {
+            return i;
+        }
     }
-    cout << "Smallest number is: " << smallest << endl;
-    cout << "Largest number is: " << largest << endl;
-    return 0;
+    return -1; // Target not found
+};
+
+int main()
+{ 
+    int arr[] = {1,2,3,4,5,6,7,8,9,10};
+    int size = 10;
+    int target = 5;
+    cout << linearSearch(arr, size, target) << endl;
 }
