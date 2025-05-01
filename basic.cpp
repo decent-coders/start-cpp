@@ -852,6 +852,47 @@
 //     cout << "Minimum number is: " << minNum << endl;
 //     return 0;
 // }
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int size = 5;
+//     int arr[size];
+//     cout <<"Enter numbers:";
+//     for (int i = 0; i < size; i++)
+//     {
+//         cin >> arr[i];
+//     }
+//     cout << "Your numbers are:"  ;
+//     for (int i = 0; i < size; i++)
+//     {
+//         cout << arr[i] << ",";
+//     }
+//         return 0;
+// }
+// #include <iostream>
+// #include <climits>
+// using namespace std;
+// int main ()
+// {
+//     int size = 5;
+//     int nums[size];
+//     cout << "Enter numbers: ";
+//     for (int i = 0; i < size; i++)
+//     {
+//         cin >> nums[i];
+//     }
+//     int maxNum = INT_MIN;
+//     int minNum = INT_MAX;
+//     for (int i = 0; i < size; i++)
+//     {
+//         maxNum = max(maxNum, nums[i]);
+//         minNum = min(minNum, nums[i]);
+//     }
+//     cout << "Maximum number is: " << maxNum << endl;
+//     cout << "Minimum number is: " << minNum << endl;
+//     return 0;
+// }
 #include <iostream>
 using namespace std;
 int main()
