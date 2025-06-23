@@ -1,901 +1,273 @@
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     cout<<"Hridoy";
-//     cout<<endl;
-//     cout<<"Hawladar \nstyding in \nCSE";
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cin>>x;
-//     cout<<x-1;
-
-//     return 0;
-// }
-
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cout<<"Enter a number: ";
-//     cin>>x;
-//     if(x%2==0)
-//     cout<<"Even Number \n";
-//     else
-//     cout<<"Odd Number \n";
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cout<<"Enter a number: ";
-//     cin>>x;
-
-//     if (x>0)
-//     {
-//         cout<<"Positive Number \n";
-//     }
-//     else if (x<0)
-//     {
-//         cout<<"Negative Number \n";
-//     }
-//     else
-//     {
-//         cout<<"Zero \n";
-//     }
-
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     x = 5;
-//     cout<<"Enter a number: ";
-//     int y;
-//     cin>>y;
-//     if (y % x == 0)
-//     {
-//         cout<<"Divisible \n";
-//     }
-//     else
-//     {
-//         cout<<"Not Divisible \n";
-//     }
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cin>>x;
-//     (x>=0)?cout<<"Poisitive Number\n" : cout<<-x;
-//     return 0;
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i <= 10; i++)
-//     {
-//         cout<<i<<endl;
-//     }
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cout<<"Enter a number: ";
-//     cin>>x;
-//     for (int i = 1; i<=10; i++)
-//     {
-//         cout<<x++<<endl;
-//     }
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i <= 100; i++)
-//     {
-//         cout<<i<<",";
-//     }
-
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i <= 100; i++)
-//     {
-//         if (i%2!=0)
-//         {
-//             cout<<i<<",";
-//         }
-
-//     }
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x=19;
-//     for (int i = 1; i <= 10; i++)
-//     {
-//         cout<<x<<"*"<<i<<"="<<x*i<<endl;
-//     }
-
-// }
-//   #include<iostream>
-//     using namespace std;
-//     int main()
-//     {
-//         int x=1;
-//         while (x<=10)
-//         {
-//             cout<<x<<endl;
-//             x++;
-//         }
-
-//     }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x=1;
-//     do
-//     {
-//     cout<<x<<endl;
-//     x++;
-//     } while (x<=10);
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-//  {
-//     for (int i = 0; i <= 5; i++)
-//     {
-//         int x=5;
-//         while (0<=x-i)
-//         {
-//             cout << "*";
-//             x--;
-//         }
-//         cout << endl;
-
-//     }
-
-//     return 0;
-//  }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     for (int i = 65; i <= 69; i++)
-//     {
-//         for (int j = 1; j <= (70 - i); j++)
-//         {
-//             cout << char(i);
-//         }
-//         cout << endl;
-//     }
-
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int x = 0;
-//     for (int i = 0; i <= 3; i++)
-//     {
-//         for (int j = 0; j <= i; j++)
-//         {
-//             cout << x++;
-//         }
-//         cout << endl;
-//     }
-
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i < 6; i++)
-//     {
-
-//         for (int j = 1; j <= i; j++)
-//         {
-//             if ((i+j )% 2 == 0)
-//             {
-//                 cout << 1;
-//             }
-//             else
-//             {
-//                 cout << 0;
-//             }
-//         }
-//         cout << endl;
-//     }
-
-// }
-// #include <iostream>
-// using namespace std;
-// int main ()
-// {
-//     for (int i = 0; i <= 6; i++)
-//     {
-//         for (int j = 0; j <=6; j++)
-//         {
-//             if (i==3 || j==3)
-//             {
-//                 cout << "*";
-//             }
-//             else
-//             {
-//                 cout << " ";
-//             }
-
-//         }
-//         cout << endl;
-//     }
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 0; i <= 6; i++)
-//     {
-//         for (int j = 0; j <= 6; j++)
-//         {
-//             if (i == 0 || j == 0 || i == 6 || j == 6)
-//             {
-//                 cout << "* ";
-//             }
-//             else
-//             {
-//                 cout << "  ";
-//             }
-//         }
-//         cout << endl;
-//     }
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int hello()
-// {
-//     cout << "Hello World";
-//     return 2;
-// }
-// int main()
-// {
-//     int x = hello();
-//     cout << endl;
-//     cout << x;
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int factorial(int n){
-//     int fact = 1;
-//     for (int i = 1; i <= n; i++)
-//     {
-//        fact *= i;
-//     }
-
-//     return fact;
-// }
-// int main(){
-//     cout<<"Enter a number: ";
-//     int x;
-//     cin>>x;
-//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int factorial(int n){
-//     int fact = 1;
-//     for (int i = 1; i <= n; i++)
-//     {
-//        fact *= i;
-//     }
-
-//     return fact;
-// }
-// int main(){
-//     cout<<"Enter a number: ";
-//     int x;
-//     cin>>x;
-//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int factorial(int n){
-//     int fact = 1;
-//     for (int i = 1; i <= n; i++)
-//     {
-//        fact *= i;
-//     }
-
-//     return fact;
-// }
-// int main(){
-//     cout<<"Enter a number: ";
-//     int x;
-//     cin>>x;
-//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     cout<<"Hridoy";
-//     cout<<endl;
-//     cout<<"Hawladar \nstyding in \nCSE";
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cin>>x;
-//     cout<<x-1;
-
-//     return 0;
-// }
-
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cout<<"Enter a number: ";
-//     cin>>x;
-//     if(x%2==0)
-//     cout<<"Even Number \n";
-//     else
-//     cout<<"Odd Number \n";
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cout<<"Enter a number: ";
-//     cin>>x;
-
-//     if (x>0)
-//     {
-//         cout<<"Positive Number \n";
-//     }
-//     else if (x<0)
-//     {
-//         cout<<"Negative Number \n";
-//     }
-//     else
-//     {
-//         cout<<"Zero \n";
-//     }
-
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     x = 5;
-//     cout<<"Enter a number: ";
-//     int y;
-//     cin>>y;
-//     if (y % x == 0)
-//     {
-//         cout<<"Divisible \n";
-//     }
-//     else
-//     {
-//         cout<<"Not Divisible \n";
-//     }
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cin>>x;
-//     (x>=0)?cout<<"Poisitive Number\n" : cout<<-x;
-//     return 0;
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i <= 10; i++)
-//     {
-//         cout<<i<<endl;
-//     }
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     cout<<"Enter a number: ";
-//     cin>>x;
-//     for (int i = 1; i<=10; i++)
-//     {
-//         cout<<x++<<endl;
-//     }
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i <= 100; i++)
-//     {
-//         cout<<i<<",";
-//     }
-
-//     return 0;
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i <= 100; i++)
-//     {
-//         if (i%2!=0)
-//         {
-//             cout<<i<<",";
-//         }
-
-//     }
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x=19;
-//     for (int i = 1; i <= 10; i++)
-//     {
-//         cout<<x<<"*"<<i<<"="<<x*i<<endl;
-//     }
-
-// }
-//   #include<iostream>
-//     using namespace std;
-//     int main()
-//     {
-//         int x=1;
-//         while (x<=10)
-//         {
-//             cout<<x<<endl;
-//             x++;
-//         }
-
-//     }
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int x=1;
-//     do
-//     {
-//     cout<<x<<endl;
-//     x++;
-//     } while (x<=10);
-
-// }
-// #include<iostream>
-// using namespace std;
-// int main()
-//  {
-//     for (int i = 0; i <= 5; i++)
-//     {
-//         int x=5;
-//         while (0<=x-i)
-//         {
-//             cout << "*";
-//             x--;
-//         }
-//         cout << endl;
-
-//     }
-
-//     return 0;
-//  }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int x;
-//     for (int i = 65; i <= 69; i++)
-//     {
-//         for (int j = 1; j <= (70 - i); j++)
-//         {
-//             cout << char(i);
-//         }
-//         cout << endl;
-//     }
-
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int x = 0;
-//     for (int i = 0; i <= 3; i++)
-//     {
-//         for (int j = 0; j <= i; j++)
-//         {
-//             cout << x++;
-//         }
-//         cout << endl;
-//     }
-
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 1; i < 6; i++)
-//     {
-
-//         for (int j = 1; j <= i; j++)
-//         {
-//             if ((i+j )% 2 == 0)
-//             {
-//                 cout << 1;
-//             }
-//             else
-//             {
-//                 cout << 0;
-//             }
-//         }
-//         cout << endl;
-//     }
-
-// }
-// #include <iostream>
-// using namespace std;
-// int main ()
-// {
-//     for (int i = 0; i <= 6; i++)
-//     {
-//         for (int j = 0; j <=6; j++)
-//         {
-//             if (i==3 || j==3)
-//             {
-//                 cout << "*";
-//             }
-//             else
-//             {
-//                 cout << " ";
-//             }
-
-//         }
-//         cout << endl;
-//     }
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     for (int i = 0; i <= 6; i++)
-//     {
-//         for (int j = 0; j <= 6; j++)
-//         {
-//             if (i == 0 || j == 0 || i == 6 || j == 6)
-//             {
-//                 cout << "* ";
-//             }
-//             else
-//             {
-//                 cout << "  ";
-//             }
-//         }
-//         cout << endl;
-//     }
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int hello()
-// {
-//     cout << "Hello World";
-//     return 2;
-// }
-// int main()
-// {
-//     int x = hello();
-//     cout << endl;
-//     cout << x;
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int factorial(int n){
-//     int fact = 1;
-//     for (int i = 1; i <= n; i++)
-//     {
-//        fact *= i;
-//     }
-
-//     return fact;
-// }
-// int main(){
-//     cout<<"Enter a number: ";
-//     int x;
-//     cin>>x;
-//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int factorial(int n){
-//     int fact = 1;
-//     for (int i = 1; i <= n; i++)
-//     {
-//        fact *= i;
-//     }
-
-//     return fact;
-// }
-// int main(){
-//     cout<<"Enter a number: ";
-//     int x;
-//     cin>>x;
-//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int factorial(int n){
-//     int fact = 1;
-//     for (int i = 1; i <= n; i++)
-//     {
-//        fact *= i;
-//     }
-
-//     return fact;
-// }
-// int main(){
-//     cout<<"Enter a number: ";
-//     int x;
-//     cin>>x;
-//     cout<<"Factorial of "<<x<<" is "<<factorial(x);
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int test[5] = {1, 2, 3, 4, 5};
-//     int size = 5;
-//     for (int i = 0; i <= size; i++)
-//     {
-//         cout << test[i] << endl;
-//     }
-    
-//     return 0;
-// }
-// #include <iostream>
-// #include <limits.h>
-// using namespace std;
-// int main ()
-// {
-//     int test[5] = {1, 2, 3, 4, 5};
-//     int size = 5;
-//     int smallest = INT_MAX ;
-//     int largest = INT_MIN;
-//     for (int i = 0; i < size; i++)
-//     {
-//         largest = max(largest, test[i]);
-//     }
-//     for (int i = 0; i < size; i++)
-//     {
-//        smallest = min(smallest, test[i]);
-   
-//     }
-//     cout << "Smallest number is: " << smallest << endl;
-//     cout << "Largest number is: " << largest << endl;
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-
-// void changeArr (int arr[],int size)
-// {
-//     cout << "Array after changing: " << endl;
-//     for (int i = 0; i < size; i++)
-//     {
-//         arr[i] = arr[i] * 2;
-//     }
-    
-// }
-// int main()
-// {
-//     int arr[] = {1, 2, 3, 4, 5};
-//     changeArr(arr, 5);
-//     for (int i = 0; i < 5; i++)
-//     {
-//         cout << arr[i] << " ";
-//     }
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int linearSearch( int arr[],int size, int target)
-// {
-//     for (int i = 0; i < size; i++)
-//     {
-//         if (arr[i] == target)
-//         {
-//             return i;
-//         }
-//     }
-//     return -1; // Target not found
-// };
-
-// int main()
-// { 
-//     int arr[] = {1,2,3,4,5,6,7,8,9,10};
-//     int size = 10;
-//     int target = 5;
-// //     cout << linearSearch(arr, size, target) << endl;
-// // }
-// #include <iostream>
-// using namespace std;
-// int linearSearch(int arr[], int size, int target)
-// {
-//     for (int i = 0; i < size; i++)
-//     {
-//         if (arr[i] == target)
-//         {
-//             return i;
-//         }
-//     }
-//     return -1; // Target not found
-// };
-
-// int main()
-// {
-//     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-//     int size = 10;
-//     int target = 5;
-//     cout << linearSearch(arr, size, target) << endl;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// { 
-//     int arr[] ={ 1,2,3,4,5,6,7,8,9,10};
-//     int size = 10;
-//     int target ;
-//     cout << "Enter a number:";
-//     cin >> target;
-//     for (int i = 0; i < size; i++)
-//     {if(arr[i] == target)
-//     {
-//         cout << i << endl;
-//     }}
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int size = 5;
-//     int arr[size];
-//     cout <<"Enter numbers:";
-//     for (int i = 0; i < size; i++)
-//     {
-//         cin >> arr[i];
-//     }
-//     cout << "Your numbers are:"  ;
-//     for (int i = 0; i < size; i++)
-//     {
-//         cout << arr[i] << ",";
-//     }
-//         return 0;
-// }
-// #include <iostream>
-// #include <climits>
-// using namespace std;
-// int main ()
-// {
-//     int size = 5;
-//     int nums[size];
-//     cout << "Enter numbers: ";
-//     for (int i = 0; i < size; i++)
-//     {
-//         cin >> nums[i];
-//     }
-//     int maxNum = INT_MIN;
-//     int minNum = INT_MAX;
-//     for (int i = 0; i < size; i++)
-//     {
-//         maxNum = max(maxNum, nums[i]);
-//         minNum = min(minNum, nums[i]);
-//     }
-//     cout << "Maximum number is: " << maxNum << endl;
-//     cout << "Minimum number is: " << minNum << endl;
-//     return 0;
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int size = 5;
-//     int arr[size];
-//     cout <<"Enter numbers:";
-//     for (int i = 0; i < size; i++)
-//     {
-//         cin >> arr[i];
-//     }
-//     cout << "Your numbers are:"  ;
-//     for (int i = 0; i < size; i++)
-//     {
-//         cout << arr[i] << ",";
-//     }
-//         return 0;
-// }
-// #include <iostream>
-// #include <climits>
-// using namespace std;
-// int main ()
-// {
-//     int size = 5;
-//     int nums[size];
-//     cout << "Enter numbers: ";
-//     for (int i = 0; i < size; i++)
-//     {
-//         cin >> nums[i];
-//     }
-//     int maxNum = INT_MIN;
-//     int minNum = INT_MAX;
-//     for (int i = 0; i < size; i++)
-//     {
-//         maxNum = max(maxNum, nums[i]);
-//         minNum = min(minNum, nums[i]);
-//     }
-//     cout << "Maximum number is: " << maxNum << endl;
-//     cout << "Minimum number is: " << minNum << endl;
-//     return 0;
-// }
 #include <iostream>
+#include <vector>
+#include <conio.h>
+#include <windows.h>
+#include <cstdlib>
+#include <ctime>
+
 using namespace std;
+
+// Constants
+const int WIDTH = 20;
+const int HEIGHT = 20;
+const int SLEEP = 300;
+
+// Direction enum
+enum Direction
+{
+    STOP = 0,
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN
+};
+
+// Global variables
+vector<pair<int, int>> snake;
+int foodX, foodY;
+Direction dir = STOP;
+bool gameOver = false;
+
+// Function prototypes
+void InitializeGame();
+void Draw();
+void Input();
+void Logic();
+void GenerateFood();
+void DrawGameOver();
+void InputGameOver();
+
 int main()
 {
+    InitializeGame();
+
+    while (!gameOver)
+    {
+        Draw();
+        Input();
+        Logic();
+        Sleep(SLEEP);
+    }
+
+    DrawGameOver();
+
     return 0;
+}
+
+void InitializeGame()
+{
+    snake.clear();
+
+    // Start with a longer snake
+    int initialLength = 3; // Set the initial length here
+
+    // Create initial snake body segments
+    for (int i = 0; i < initialLength; i++)
+    {
+        snake.push_back({WIDTH / 2 - i, HEIGHT / 2});
+    }
+
+    srand(time(0));
+    GenerateFood();
+    gameOver = false;
+    dir = RIGHT; // Set initial direction to right
+}
+
+void Draw()
+{
+    system("cls");
+
+    // Draw top border
+    for (int i = 0; i < WIDTH + 2; i++)
+        cout << "#";
+    cout << endl;
+
+    // Draw game board
+    for (int y = 0; y < HEIGHT; y++)
+    {
+        for (int x = 0; x < WIDTH; x++)
+        {
+            if (x == 0)
+                cout << "#";
+
+            bool isSnakePart = false;
+            for (const auto &segment : snake)
+            {
+                if (segment.first == x && segment.second == y)
+                {
+                    if (&segment == &snake.front())
+                        cout << "O";
+                    else
+                        cout << "o";
+                    isSnakePart = true;
+                    break;
+                }
+            }
+
+            if (!isSnakePart)
+            {
+                if (x == foodX && y == foodY)
+                    cout << "*";
+                else
+                    cout << " ";
+            }
+
+            if (x == WIDTH - 1)
+                cout << "#";
+        }
+        cout << endl;
+    }
+
+    // Draw bottom border and score
+    for (int i = 0; i < WIDTH + 2; i++)
+        cout << "#";
+    cout << endl;
+    cout << "Score: " << snake.size() - 1 << endl;
+}
+
+void Input()
+{
+    if (_kbhit())
+    {
+        int key = _getch();
+
+        // Handle extended keys (arrow keys)
+        if (key == 0 || key == 224)
+        {
+            key = _getch();
+            switch (key)
+            {
+            case 75: // Left arrow
+                if (dir != RIGHT)
+                    dir = LEFT;
+                break;
+            case 77: // Right arrow
+                if (dir != LEFT)
+                    dir = RIGHT;
+                break;
+            case 72: // Up arrow
+                if (dir != DOWN)
+                    dir = UP;
+                break;
+            case 80: // Down arrow
+                if (dir != UP)
+                    dir = DOWN;
+                break;
+            }
+        }
+        // Handle 'x' to exit
+        else if (key == 'x' || key == 'X')
+        {
+            gameOver = true;
+        }
+    }
+}
+
+void Logic()
+{
+    if (dir == STOP)
+        return;
+
+    // Calculate new head position
+    int newHeadX = snake.front().first;
+    int newHeadY = snake.front().second;
+
+    switch (dir)
+    {
+    case LEFT:
+        newHeadX--;
+        break;
+    case RIGHT:
+        newHeadX++;
+        break;
+    case UP:
+        newHeadY--;
+        break;
+    case DOWN:
+        newHeadY++;
+        break;
+    }
+
+    // Check wall collision
+    if (newHeadX < 0 || newHeadX >= WIDTH || newHeadY < 0 || newHeadY >= HEIGHT)
+    {
+        gameOver = true;
+        return;
+    }
+
+    // Check self collision
+    for (size_t i = 1; i < snake.size(); i++)
+    {
+        if (snake[i].first == newHeadX && snake[i].second == newHeadY)
+        {
+            gameOver = true;
+            return;
+        }
+    }
+
+    // Add new head
+    snake.insert(snake.begin(), {newHeadX, newHeadY});
+
+    // Check food collision
+    if (newHeadX == foodX && newHeadY == foodY)
+    {
+        GenerateFood();
+    }
+    // Remove tail if no food eaten
+    else
+    {
+        snake.pop_back();
+    }
+}
+
+void GenerateFood()
+{
+    bool onSnake;
+    do
+    {
+        onSnake = false;
+        foodX = rand() % WIDTH;
+        foodY = rand() % HEIGHT;
+
+        for (const auto &segment : snake)
+        {
+            if (segment.first == foodX && segment.second == foodY)
+            {
+                onSnake = true;
+                break;
+            }
+        }
+    } while (onSnake);
+}
+
+void DrawGameOver()
+{
+    system("cls");
+    cout << "********** GAME OVER **********" << endl;
+    cout << "Your score: " << snake.size() - 1 << endl;
+    cout << "Press Enter to play again" << endl;
+    cout << "Press X to exit" << endl;
+
+    InputGameOver();
+}
+
+void InputGameOver()
+{
+    while (true)
+    {
+        if (_kbhit())
+        {
+            int key = _getch();
+
+            if (key == 13)
+            { // Enter key
+                InitializeGame();
+                main(); // Restart the game
+            }
+            else if (key == 'x' || key == 'X')
+            {
+                exit(0); // Exit the game
+            }
+        }
+    }
 }
